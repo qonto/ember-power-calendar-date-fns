@@ -5,7 +5,7 @@ const Replace = require('broccoli-string-replace');
 
 const optionsField = 'ember-power-calendar-date-fns';
 const defaultOptions = {
-  includeLocales: true,
+  includeLocales: ['en-US', 'fr', 'es', 'de', 'it'],
 };
 
 function localeVarName(locale) {
